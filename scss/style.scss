@@ -1,0 +1,33 @@
+// Import variables
+@import 'variables';
+
+// Import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Import font family
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+// Styles
+body {
+  font-size: 13px;
+}
+
+.fondo-card {
+  background: {
+    image: url('../images/bg-pattern-quotation.svg');
+    repeat: no-repeat;
+    position: 85% top;
+  }
+}
+
+article {
+  p {
+    color: $light-gray;
+  }
+  h4 {
+    font-weight: 600;
+  }
+}
+
+// Import media-queries
+@import 'media-queries';
